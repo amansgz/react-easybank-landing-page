@@ -20,6 +20,9 @@
 }
 
 body {
+	max-width: 1440px;
+	margin: auto;
 	font-family: 'Public Sans', sans-serif;	
 	font-size: 18px;
+	font-weight: 400;
 }
