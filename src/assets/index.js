@@ -7,7 +7,7 @@ import iconOnline from "./icon-online.svg";
 import iconBudgeting from "./icon-budgeting.svg";
 import iconOnboarding from "./icon-onboarding.svg";
 import iconApi from "./icon-api.svg";
-import imgMockups from "./image-mockups.jpg";
+import imgMockups from "./image-mockups.png";
 import imgCurrency from "./image-currency.jpg";
 import imgRestaurant from "./image-restaurant.jpg";
 import imgPlane from "./image-plane.jpg";

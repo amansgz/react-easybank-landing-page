@@ -12,7 +12,7 @@
 :root {
 	--dark-blue: hsl(233, 26%, 24%);
 	--lime-green: hsl(136, 65%, 51%);
-	--bright Cyan: hsl(192, 70%, 51%);
+	--bright-cyan: hsl(192, 70%, 51%);
 	--grayish-blue: hsl(233, 8%, 62%);
 	--light-grayish-blue: hsl(220, 16%, 96%);
 	--very-light-gray: hsl(0, 0%, 98%);
@@ -20,6 +20,9 @@
 }
 
 body {
+	max-width: 1440px;
+	margin: auto;
 	font-family: 'Public Sans', sans-serif;	
 	font-size: 18px;
+	font-weight: 400;
 }
