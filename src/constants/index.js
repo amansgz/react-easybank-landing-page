@@ -27,7 +27,7 @@ export const features = [
     icon: iconApi,
     title: "Open API",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.",
   },
 ];
 

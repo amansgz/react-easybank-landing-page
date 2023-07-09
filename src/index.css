@@ -1,6 +1,3 @@
-/* Public Sans 300, 400, 700 */
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
-
 *,
 *:before,
 *:after {
@@ -10,19 +7,49 @@
 }
 
 :root {
-	--dark-blue: hsl(233, 26%, 24%);
+	/* COLORS */
+	--heading-color: hsl(233, 26%, 24%); /*dark-blue*/
+	--text-color: hsl(233, 8%, 62%); /*grayish-blue*/
+	--bg-conntainer: hsl(0, 0%, 98%); /*very-light-gray*/
 	--lime-green: hsl(136, 65%, 51%);
 	--bright-cyan: hsl(192, 70%, 51%);
-	--grayish-blue: hsl(233, 8%, 62%);
 	--light-grayish-blue: hsl(220, 16%, 96%);
-	--very-light-gray: hsl(0, 0%, 98%);
 	--white: hsl(0, 0%, 100%);
+	
+	/* FONT SIZES */
+	--size-h2: clamp(32px, 5vw, 34px);
+	--size-h3: clamp(18px, 2vw, 20px);
+	--size-description-text: clamp(16px, 2vw, 20px);
+	--size-card-text: clamp(16px, 1vw, 20px);
 }
 
 body {
 	max-width: 1440px;
 	margin: auto;
-	font-family: 'Public Sans', sans-serif;	
+	padding: clamp(1rem, 5vw, 10rem);
+	font-family: 'Public Sans', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
+}
+h2 {
+	font-size: var(--size-h2);
+}
+h3 {
+	font-size: var(--size-h3);
+}
+h2,
+h3 {
+	margin: 1em;
+	font-weight: 600;
+	color: var(--heading-color);
+}
+p {
+	margin: 1em;
+	font-size: var(--size-description-text);
+	color: var(--text-color);
+	line-height: 1.5;
+}
+figure {
+	display: block;
+	margin: 1em;
 }
