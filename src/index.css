@@ -12,6 +12,7 @@
 	--text-color: hsl(233, 8%, 62%); /*grayish-blue*/
 	--bg-container: hsl(0, 0%, 98%); /*very-light-gray*/
 	--hover-color: hsl(192, 70%, 51%);/*bright-cyan*/
+	--bg-footer: hsl(233, 26%, 24%);
 	--lime-green: hsl(136, 65%, 51%);
 	--light-grayish-blue: hsl(220, 16%, 96%);
 	--white: hsl(0, 0%, 100%);
@@ -57,6 +58,9 @@ span {
 }
 ul {
 	list-style-type: none;
+}
+li {
+	margin: .5em;
 }
 a {
 	text-decoration: none;

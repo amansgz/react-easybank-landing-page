@@ -1,5 +1,7 @@
 import Features from "./components/Features/Features";
 import Articles from "./components/Articles/Articles";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
 
@@ -9,7 +11,7 @@ function App() {
         <Features />
         <Articles />
       </main>  
-      
+      <Footer />
     </>
   )
 }
@@ -32,22 +34,4 @@ export default App;
   for spending, saving, budgeting, investing, and much more.
 
   Request Invite
-
-
-// Articles
-
-  Latest Articles
-
-  
-// Footer
-  About Us
-  Contact
-  Blog
-  Careers
-  Support
-  Privacy Policy
-
-  Request Invite
-
-  © Easybank. All Rights Reserved
 */

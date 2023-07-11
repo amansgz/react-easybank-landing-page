@@ -1,0 +1,10 @@
+.socialLinks {
+	display: flex;
+	margin-top: 4em;
+}
+.socialLinks > li > figure {
+	margin: 0;
+}
+.socialLinks > li > figure > svg path:hover {
+	fill: var(--hover-color);
+}
