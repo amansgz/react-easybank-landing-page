@@ -1,0 +1,26 @@
+.hero__description {
+	width: 303px;
+}
+
+.container-images {
+	width: 50vw;
+	height: 400px;
+	background-image: url("./assets/bg-intro-mobile.svg");
+	background-size: cover;
+	position: relative;
+}
+.container-images:after {
+	content: url("./assets/image-mockups.png");
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+@media screen and (min-width: 768px) {
+	.hero {
+		display: flex;
+	}
+	.container-images {
+		background-image: url("./assets/bg-intro-desktop.svg");
+	}
+}

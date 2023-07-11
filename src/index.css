@@ -18,6 +18,7 @@
 	--white: hsl(0, 0%, 100%);
 	
 	/* FONT SIZES */
+	--size-h1: clamp(34px, 5vw, 42px);
 	--size-h2: clamp(32px, 5vw, 40px);
 	--size-h3: clamp(18px, 5vw, 22px);
 	--size-description-text: clamp(16px, 2vw, 20px);
@@ -34,12 +35,16 @@ body {
 	font-size: 18px;
 	font-weight: 400;
 }
+h1 {
+	font-size: var(--size-h1);
+}
 h2 {
 	font-size: var(--size-h2);
 }
 h3 {
 	font-size: var(--size-h3);
 }
+h1,
 h2,
 h3 {
 	margin: .5em;
