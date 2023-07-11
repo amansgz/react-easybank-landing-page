@@ -6,10 +6,10 @@
 	text-align: center;
 }
 .card {
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 }
 .card__content {
-	font-size: var(--size-card-text);
+	font-size: var(--size-feature-text);
 }
 .container-flex {
 	padding: 1em 0;
