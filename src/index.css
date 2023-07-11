@@ -20,7 +20,7 @@
 	--size-h2: clamp(32px, 5vw, 40px);
 	--size-h3: clamp(18px, 5vw, 22px);
 	--size-description-text: clamp(16px, 2vw, 20px);
-	--size-feature-text: clamp(16px, 1vw, 20px);
+	--size-feature-text: clamp(16px, 1vw, 18px);
 
 	--size-heading-card: clamp(16px, 4vw, 18px);;
 	--size-card-text: clamp(12px, 1vw, 13px);

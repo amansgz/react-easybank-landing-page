@@ -2,7 +2,7 @@ import "./Articles.css";
 import { articles } from "../../constants";
 
 const Articles = () => (	
-	<section className= "section">
+	<section>
 		<h2 className= "section__title">
 			Latest Articles
 		</h2>

@@ -13,17 +13,17 @@ const Features = () => (
 	  	</p>
 	  </div>
 
-		<div className= "container-flex">
+		<div className= "container-features">
 		  {features.map((feature) => (
 		    <article key={feature.id} 
-		    	className= "card">
-		    	<figure className= "card__icon">
+		    	className= "feature">
+		    	<figure className= "feature__icon">
 		    		<img src= {feature.icon} />
 		    	</figure>	
-		      <h3 className= "card__title">
+		      <h3 className= "feature__title">
 		        {feature.title}
 		      </h3>
-		      <p className= "card__content">
+		      <p className= "feature__content">
 		        {feature.content}
 		      </p>
 		    </article>
