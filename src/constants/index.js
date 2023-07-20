@@ -39,6 +39,7 @@ export const articles = [
     author: "By Claire Robinson",
     title: "Receive money in any currency with no fees",
     img: imgCurrency,
+    alt: "Currency"
   },
   {
     id: "article-2",
@@ -47,6 +48,7 @@ export const articles = [
     author: "By Wilson Hutton",
     title: "Treat yourself without worrying about money",
     img: imgRestaurant,
+    alt: "Restaurant"
   },
   {
     id: "article-3",
@@ -55,6 +57,7 @@ export const articles = [
     author: "By Wilson Hutton",
     title: "Take your Easybank card wherever you go",
     img: imgPlane,
+    alt: "Plane"
   },
   {
     id: "article-4",
@@ -63,5 +66,6 @@ export const articles = [
     author: "By Claire Robinson",
     title: "Our invite-only Beta accounts are now live!",
     img: imgConfetti,
+    alt: "Confetti"
   },
 ];
