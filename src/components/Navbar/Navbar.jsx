@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Logo } from "../shared/Logo/Logo";
+import Logo from "../shared/Logo/Logo";
 import { iconClose, iconHamburger }from "../../assets";
 import "./Navbar.css"
 import Button from "../shared/Button/Button";

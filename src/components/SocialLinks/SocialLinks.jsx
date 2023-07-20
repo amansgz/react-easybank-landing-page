@@ -1,6 +1,5 @@
 import "./SocialLinks.css";
 
-
 const SocialLinks = () => (
 	<ul className= "socialLinks">
 		<li>

@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { LogoWhiteText } from "../shared/Logo/LogoWhite";
+import LogoWhiteText from "../shared/Logo/LogoWhite";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import Button from "../shared/Button/Button";
 
