@@ -1,0 +1,20 @@
+header {
+	position: sticky;
+	top: 0;
+	height: 85px;
+	z-index: 90;
+	padding: 2rem;
+	background-color: var(--clr-background-light);
+}
+
+@media screen and (min-width: 50em) {
+	header {
+		padding: 1rem 2rem;
+	}
+}
+
+@media screen and (min-width: 80em) {
+	header {
+		padding: 1rem 8rem;
+	}
+}
