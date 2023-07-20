@@ -2,7 +2,7 @@ import "./SocialLinks.css";
 
 
 const SocialLinks = () => (
-	<ul className= "socialLinks" aria-label= "social links">
+	<ul className= "socialLinks">
 		<li>
 			<figure>
 				<a href= "#" aria-label= "Go to Facebook">

@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { LogoWhiteText } from "../shared/Logo/Logo";
+import { LogoWhiteText } from "../shared/Logo/LogoWhite";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import Button from "../shared/Button/Button";
 
@@ -15,8 +15,8 @@ const Footer = () => (
 			<ul className= "footer-nav">
 				<li><a href= "#">About Us</a></li>
 				<li><a href= "#">Contact</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Careers</a></li>
+				<li><a href= "#">Blog</a></li>
+				<li><a href= "#">Careers</a></li>
 				<li><a href= "#">Support</a></li>
 				<li><a href= "#">Privacy Policy</a></li>	
 			</ul>	
