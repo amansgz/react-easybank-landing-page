@@ -1,6 +1,6 @@
 .section-hero {
 	padding: 2rem 1rem;
-	background-image: url("./assets/bg-intro-mobile.svg");
+	background-image: url("../assets/bg-intro-mobile.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 50em) {
 	.section-hero {
-		background-image: url("./assets/bg-intro-desktop.svg");
+		background-image: url("../assets/bg-intro-desktop.svg");
 		background-position: 349px -150px;
 		background-size: cover;
 		padding: 2rem 3rem;
@@ -59,7 +59,7 @@
 	}
 }
 
-@media screen and (min-width: 70em) { /*1120*/
+@media screen and (min-width: 70em) { 
 	.section-hero {
 		padding: 2rem 8rem;
 		background-position: 546px -216px;
