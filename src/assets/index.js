@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import bgIntroDesktop from "./bg-intro-desktop.svg";
 import bgIntroMobile from "./bg-intro-mobile.svg";
-import iconHamburguer from "./icon-hamburger.svg";
+import iconHamburger from "./icon-hamburger.svg";
 import iconClose from "./icon-close.svg";
 import iconOnline from "./icon-online.svg";
 import iconBudgeting from "./icon-budgeting.svg";
@@ -22,7 +22,7 @@ export {
 	logo,
 	bgIntroDesktop,
 	bgIntroMobile,
-	iconHamburguer,
+	iconHamburger,
 	iconClose,
 	iconOnline,
 	iconBudgeting,
