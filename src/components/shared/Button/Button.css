@@ -1,0 +1,18 @@
+.button {
+	display: inline-block;
+	margin: 1em;
+	padding: 1em 2em;
+	font-size: var(--fs-button);
+	font-weight: var(--fw-bold);
+	color: var(--white);
+	background-image: var(--primary-gradient);
+	border: none;
+	border-radius: 24px;
+	box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.15);
+	transition: .1s ease;
+}
+.button:hover,
+.button:focus-visible {
+	opacity: 0.4;
+	cursor: pointer;
+}
