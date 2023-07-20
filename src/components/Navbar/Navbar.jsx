@@ -21,7 +21,7 @@ const Navbar = () => {
 				</figure>
 			</div>	
 		
-			<ul className= {`${!toggle ? "hidden" : "flex"} nav__menu`} role= "list">
+			<ul className= {`${!toggle ? "hidden" : "flex"} nav__menu`}>
 				<li>
 					<a href="#">Home</a>
 				</li>

@@ -12,7 +12,7 @@ const Footer = () => (
 				<SocialLinks />
 			</div>
 		
-			<ul role= "list" className= "footer-nav">
+			<ul className= "footer-nav">
 				<li><a href= "#">About Us</a></li>
 				<li><a href= "#">Contact</a></li>
 				<li><a href="#">Blog</a></li>
