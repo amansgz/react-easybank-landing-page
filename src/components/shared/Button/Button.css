@@ -16,3 +16,13 @@
 	opacity: 0.4;
 	cursor: pointer;
 }
+@media (min-width: 767px) {
+	.button-header {
+		padding: 1em;
+	}
+}	
+@media (min-width: 1280px) {
+	.button-header {
+		padding: 1em 2em;
+	}
+}	
