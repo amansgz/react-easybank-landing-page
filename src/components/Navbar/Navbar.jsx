@@ -34,12 +34,10 @@ const Navbar = () => {
 				<li>
 					<a href="#">Blog</a>
 				</li>
-
 				<li>
 					<a href="#">Careers</a>
 				</li>
 			</ul>
-			
 			<Button />
 		</nav>
 	);
