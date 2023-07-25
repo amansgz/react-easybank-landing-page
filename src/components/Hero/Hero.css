@@ -1,83 +1,83 @@
-.section-hero {
-	padding: 2rem 1rem;
+.box {
 	background-image: url("../assets/bg-intro-mobile.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
-}
-.container-hero {
-	border: 1px solid red;
+	background-size: cover;
+	background-repeat: no-repeat;	
 }
 .box__image {
-	transform: translate(0%, -36%);
+	transform: translateY(-142px);
 }
 .hero-description {
-	margin: auto;
 	text-align: center;
+}
+.hero-description__title {
+	max-width: 14ch;
+	margin: auto;
 }
 .hero-description__text {
 	max-width: 34ch;
 	margin: 2rem auto;
 }
-.button-hero {
-	margin: 2rem auto;
-}
 
 @media screen and (min-width: 767px) {
 	.section-hero {
-		background-image: url("../assets/bg-intro-desktop.svg");
-		background-position: 349px -150px;
-		background-size: cover;
-		padding: 2rem;
-		position: relative;
-		
-	}
+		padding-left: 2rem;
+		overflow: hidden;
+	}	
 	.container-hero {		
 		display: flex;
 		align-items: center;
 	}
 	.box {
-		width: 50vw;
-		height: 500px;
+		width: 50%;
 		order: 1;
+		background-image: url("../assets/bg-intro-desktop.svg");
+		background-position: 20% -290%;
+		background-size: 140%;
 	}
 	.box__image {
-		position: absolute;
-		top: 25%;
-		right: -55px;
-		width: 50%;	
-	}
+		transform: translate(68px, -62px);
+	}	
 	.hero-description {
-		width: 50vw;
+		width: 50%;
 		margin: 0;
 		text-align: left;
 	}
 	.hero-description__title {
 		max-width: 14ch;
+		margin: 0;
 	}
 	.hero-description__text {
-		margin: 2em 0;
-	}
-	.button-hero {
-		margin: 0;
+		margin: 2rem 0;
+		max-width: 43ch;
 	}
 }
 
 @media screen and (min-width: 1280px) { 
 	.section-hero {
-		padding: 2rem 8rem;
-		background-position: 546px -216px;
+		padding-left: 8rem;
+	}
+	.box {
+		background-position: 17% -270%;
 	}
 	.box__image {
-		top: 30%;	
-		right: -50px;
-	}
+		transform: translate(68px, -84px);
+	}	
 	.hero-description__text {
-		max-width: 44ch;
+		margin: 2rem 0;
 	}
 }
 
 @media screen and (min-width: 1440px) {
 	.section-hero {
-		padding: 2rem 10rem;
+		padding-left: 10rem;
+	}
+	.box__image {
+		transform: translate(68px, -62px);
+	}	
+}
+@media screen and (min-width: 1700px) {
+	.box {
+		width: 60%;
+	
 	}
 }

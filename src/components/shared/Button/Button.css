@@ -16,9 +16,16 @@
 	opacity: 0.4;
 	cursor: pointer;
 }
+
+.button-hero {
+	margin: 2rem auto;
+}
 @media (min-width: 767px) {
 	.button-header {
 		padding: 1em;
+	}
+	.button-hero {
+		margin: 0;
 	}
 }	
 @media (min-width: 1280px) {
