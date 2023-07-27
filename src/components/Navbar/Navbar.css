@@ -60,7 +60,7 @@
 		display: none;
 	}
 	.nav__menu {
-		width: 55vw;
+		width: 50vw;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;

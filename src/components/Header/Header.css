@@ -1,26 +1,7 @@
 header {
 	position: sticky;
 	top: 0;
-	height: 85px;
 	z-index: 90;
-	padding: 2rem 1rem;
+	padding: var(--header-block-padding) var(--inline-padding);
 	background-color: var(--clr-background-light);
-}
-
-@media screen and (min-width: 767px) {
-	header {
-		padding: 1rem 2rem;
-	}
-}
-
-@media screen and (min-width: 1280px) {
-	header {
-		padding: 1rem 8rem;
-	}
-}
-
-@media screen and (min-width: 1440px) {
-	header {
-		padding: 1rem 10rem;
-	}
 }

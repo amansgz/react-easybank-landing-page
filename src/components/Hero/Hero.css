@@ -1,83 +1,57 @@
-.box {
+.hero {
+	padding: var(--section-block-padding) var(--inline-padding);
 	background-image: url("../assets/bg-intro-mobile.svg");
-	background-size: cover;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
 }
-.box__image {
-	transform: translateY(-142px);
+.container-sm-grid-1 {
+	display: grid;
+	place-items: center;
 }
-.hero-description {
+.hero__image {
+	width: 100%;
+	transform: translateY(-130px);
+}
+.item-text {
 	text-align: center;
 }
-.hero-description__title {
+.hero__title {
 	max-width: 14ch;
-	margin: auto;
 }
-.hero-description__text {
+.hero__text {
 	max-width: 34ch;
-	margin: 2rem auto;
+	margin: var(--spacer-medium) 0;
 }
 
 @media screen and (min-width: 767px) {
-	.section-hero {
-		padding-left: 2rem;
-		overflow: hidden;
-	}	
-	.container-hero {		
-		display: flex;
-		align-items: center;
-	}
-	.box {
-		width: 50%;
-		order: 1;
+	.hero {
 		background-image: url("../assets/bg-intro-desktop.svg");
-		background-position: 20% -290%;
-		background-size: 140%;
+		background-position: right -412% bottom;
+		background-size: 90%;
+		overflow: hidden;
 	}
-	.box__image {
-		transform: translate(68px, -62px);
-	}	
-	.hero-description {
-		width: 50%;
-		margin: 0;
+	.container-md-grid-2 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		place-items: start;
+	}
+	.item-image {
+		order: 2;
+	}
+	.hero__image {
+	  max-width: 750px;
+		transform: translate(30%, -15%);
+	}
+	.item-text {
+		order: 1;
 		text-align: left;
+		align-self: center;
 	}
-	.hero-description__title {
+	.hero__title {
 		max-width: 14ch;
-		margin: 0;
 	}
-	.hero-description__text {
-		margin: 2rem 0;
+	.hero__text {
 		max-width: 43ch;
-	}
-}
-
-@media screen and (min-width: 1280px) { 
-	.section-hero {
-		padding-left: 8rem;
-	}
-	.box {
-		background-position: 17% -270%;
-	}
-	.box__image {
-		transform: translate(68px, -84px);
-	}	
-	.hero-description__text {
-		margin: 2rem 0;
-	}
-}
-
-@media screen and (min-width: 1440px) {
-	.section-hero {
-		padding-left: 10rem;
-	}
-	.box__image {
-		transform: translate(68px, -62px);
-	}	
-}
-@media screen and (min-width: 1700px) {
-	.box {
-		width: 60%;
-	
 	}
 }
