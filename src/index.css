@@ -52,7 +52,7 @@
 
 	/* Paddings */
 	--section-block-padding: clamp(6rem, calc(6rem + ((1vw - 0.32rem) * 5.7361)), 12rem);
-	--section-inline-padding: clamp(1rem, calc(1rem + ((1vw - 0.32rem) * 13.3843)), 15rem);
+	--section-inline-padding: clamp(1rem, calc(1rem + ((1vw - 0.32rem) * 10.5163)), 12rem);
 	--section-hero-block-padding: 1rem;
 	--header-block-padding: 1.5rem;
 	--footer-block-padding: clamp(4rem, calc(4rem + ((1vw - 0.32rem) * 0.956)), 5rem);
