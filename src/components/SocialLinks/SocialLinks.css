@@ -1,7 +1,7 @@
 .socialLinks {
 	display: flex;
 	justify-content: center;
-	margin-top: 2rem;
+	margin: var(--spacing-3) 0;
 }
 .socialLinks > li {
 	margin: .8rem;
@@ -15,7 +15,7 @@
 	fill: var(--clr-accent-hover);
 	cursor: pointer;
 }
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 767px) {
 	.socialLinks > li:nth-child(1) {
 		margin-left: 0;
 	}

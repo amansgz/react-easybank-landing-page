@@ -1,10 +1,10 @@
 .button {
 	display: inline-block;
-	margin: 1em;
-	padding: 1em 2em;
-	font-size: var(--fs-button);
-	font-weight: var(--fw-bold);
-	color: var(--white);
+	margin: var(--spacing-1);
+	padding: .8em 1.7em;
+	font-size: var(--font-size-button);
+	font-weight: var(--font-weight-bold);
+	color: var(--clr-text-button);
 	background-image: var(--primary-gradient);
 	border: none;
 	border-radius: 24px;
@@ -17,19 +17,11 @@
 	cursor: pointer;
 }
 
-.button-hero {
-	margin: 2rem auto;
-}
 @media (min-width: 767px) {
-	.button-header {
-		padding: 1em;
+	.nav .button-header {
+		padding: .8em 1.7em;
 	}
-	.button-hero {
+	.button {
 		margin: 0;
 	}
-}	
-@media (min-width: 1280px) {
-	.button-header {
-		padding: 1em 2em;
-	}
-}	
+}

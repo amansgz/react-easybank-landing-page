@@ -5,14 +5,14 @@ import Button from "../shared/Button/Button";
 
 
 const Footer = () => (
-	<footer>	
-		<div className= "container-footer">	
-			<div className= "container-footer__item--1">
+	<footer className= "footer">	
+		<div className= "grid-1 grid-md-3">	
+			<div className= "grid__col-1">
 				<LogoWhiteText />
 				<SocialLinks />
 			</div>
 		
-			<ul className= "footer-nav">
+			<ul className= "footer-nav grid-col-2">
 				<li><a href= "#">About Us</a></li>
 				<li><a href= "#">Contact</a></li>
 				<li><a href= "#">Blog</a></li>
@@ -21,7 +21,7 @@ const Footer = () => (
 				<li><a href= "#">Privacy Policy</a></li>	
 			</ul>	
 		
-			<div className= "container-footer__item--3">
+			<div className= "grid__col-3">
 				<Button />
 				<small>
 					© Easybank. All Rights Reserved

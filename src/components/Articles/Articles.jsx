@@ -2,12 +2,12 @@ import "./Articles.css";
 import { articles } from "../../constants";
 
 const Articles = () => (	
-	<section aria-label= "blog">
-		<div className= "container">
-			<h2 className= "container__title">
+	<section className= "section-blog" aria-label= "blog">
+		<div>
+			<h2 className= "content__title">
 				Latest Articles
 			</h2>
-			<div className= "container-cards">
+			<div className= "flex-wrap-container">
 				{articles.map ((article)=> (
 					<article key= {article.id}
 						className= "card">
@@ -16,16 +16,16 @@ const Articles = () => (
 							src= {article.img} alt= "{article.alt}"/>
 						</picture>
 
-						<div className= "card-body">
-							<span>
+						<div className= "card__body">
+							<span className="card__author">
 								{article.author}
 							</span>
-							<h3 className= "card-body__title">
+							<h3 className= "card__title">
 								<a href="" >
 									{article.title}
 								</a>
 							</h3>
-							<p className= "card-body__text">
+							<p className= "card__text">
 								{article.content}
 							</p>
 						</div>	
