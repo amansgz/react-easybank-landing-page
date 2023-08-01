@@ -39,28 +39,30 @@
 	--font-weight-bold: 700;
 
 	/* FONT SIZES */
-	--font-size-h1:  clamp(3.75rem, calc(3.75rem + ((1vw - 0.32rem) * 0.717)), 4.5rem);
-	--font-size-h2: clamp(3rem, calc(3rem + ((1vw - 0.32rem) * 0.717)), 3.75rem);
+	--font-size-h1: clamp(3.6rem, calc(3.6rem + ((1vw - 0.32rem) * 1.7208)), 5.4rem);
+	--font-size-h2: clamp(2.8rem, calc(2.8rem + ((1vw - 0.32rem) * 0.956)), 3.8rem);	
 	--font-size-h3: clamp(1.875rem, calc(1.875rem + ((1vw - 0.32rem) * 0.3585)), 2.25rem);
 	--font-size-text: clamp(1.5rem, calc(1.5rem + ((1vw - 0.32rem) * 0.3585)), 1.875rem);
-	--font-size-small-text: clamp(1.125rem, calc(1.125rem + ((1vw - 0.32rem) * 0.3585)), 1.5rem);
-	--font-size-link: clamp(1.5rem, calc(1.5rem + ((1vw - 0.32rem) * 0.3585)), 1.875rem);
-	--font-size-button: clamp(1.6rem, calc(1.6rem + ((1vw - 0.32rem) * 0.1912)), 1.8rem);
-
-	--font-size-card-title: clamp(1.875rem, calc(1.875rem + ((1vw - 0.32rem) * 0.1195)), 2rem);
-	--font-size-card-text: clamp(1.125rem, calc(1.125rem + ((1vw - 0.32rem) * 0.3585)), 1.5rem);
+	--font-size-link: 1.4rem;
+	--font-size-button: 1.5rem;
+	--font-size-card-author: 1rem;
+	--font-size-card-title: clamp(1.4rem, calc(1.4rem + ((1vw - 0.32rem) * 0.0956)), 1.5rem);
+	--font-size-card-text: clamp(1.2rem, calc(1.2rem + ((1vw - 0.32rem) * 0.0956)), 1.3rem);
+	
 
 	/* Paddings */
-	--section-block-padding: clamp(6rem, calc(6rem + ((1vw - 0.32rem) * 5.7361)), 12rem);
-	--section-inline-padding: clamp(1rem, calc(1rem + ((1vw - 0.32rem) * 10.5163)), 12rem);
-	--section-hero-block-padding: 1rem;
-	--header-block-padding: 1.5rem;
-	--footer-block-padding: clamp(4rem, calc(4rem + ((1vw - 0.32rem) * 0.956)), 5rem);
+	--header-block-padding: clamp(1.8rem, calc(1.8rem + ((1vw - 0.32rem) * 0.6692)), 2.5rem);
+	--section-block-padding: clamp(6.7rem, calc(6.7rem + ((1vw - 0.32rem) * 4.1109)), 11rem);
+	--section-inline-padding: clamp(1.5rem, calc(1.5rem + ((1vw - 0.32rem) * 14.5315)), 16.7rem);
+	--footer-block-padding: clamp(3.3rem, calc(3.3rem + ((1vw - 0.32rem) * 0.7648)), 4.1rem);
+	--card-padding: clamp(2.8rem, calc(2.8rem + ((1vw - 0.32rem) * 0.0956)), 2.9rem);
 	
 	/* Spacers */
 	--spacing-1: clamp(1rem, calc(1rem + ((1vw - 0.32rem) * 0.956)), 2rem);
 	--spacing-2: clamp(2rem, calc(2rem + ((1vw - 0.32rem) * 1.912)), 4rem);
 	--spacing-3: clamp(3rem, calc(3rem + ((1vw - 0.32rem) * 0.956)), 4rem);
+
+	--title-block-margin: clamp(3.1rem, calc(3.1rem + ((1vw - 0.32rem) * 1.0516)), 4.2rem); 
 }
 
 /*Box sizing rules*/
@@ -130,7 +132,6 @@ p {
 }
 
 .content__title {
-	margin-bottom: var(--spacing-2);
 	font-size: var(--font-size-h2);	
 	font-weight: var(--font-weight-light);
 	color: var(--clr-primary-heading);

@@ -47,3 +47,8 @@ small {
 		text-align: left;
  }
 }
+@media screen and (min-width: 992px) {
+	.footer .grid-md-3 {
+ 		grid-template-columns: 25% 1fr 1fr;
+	}	
+}

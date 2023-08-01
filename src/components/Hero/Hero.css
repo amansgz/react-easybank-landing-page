@@ -1,5 +1,5 @@
 .section-hero {
-	padding: var(--section-hero-block-padding) var(--section-inline-padding);
+	padding: var(--section-block-padding) var(--section-inline-padding);
 	background-image: url("../assets/bg-intro-mobile.svg");
 	background-repeat: no-repeat;
 	background-position: top;
@@ -11,10 +11,11 @@
 }
 .hero__title {
 	max-width: 14ch;
+	margin: var(--title-block-margin);
 }
 .hero__text {
-	max-width: 34ch;
-	margin: var(--spacing-2) 0;
+	max-width: 40ch;
+	margin-bottom: 4rem;
 }
 
 @media screen and (min-width: 767px) {
@@ -41,6 +42,7 @@
 	}
 	.hero__title {
 		max-width: 14ch;
+		margin-left: 0;
 	}
 	.hero__text {
 		max-width: 43ch;
