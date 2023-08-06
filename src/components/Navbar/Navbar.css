@@ -9,11 +9,12 @@
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	padding: 1rem 0;
-	margin-top: 1.5rem;
-	background-color: var(--clr-backgrouund-light);
+	padding: 2rem 0;
+	margin-top: 4rem;
+	background-color: var(--clr-background-light);
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 	z-index: 100;
+	transition: .5s ease;
 }
 .hidden {
 	display: none;
@@ -27,7 +28,7 @@
 	transition: .3s ease;
 }
 .nav__menu > li > a {
-	color: var(--clr-nav);
+	color: var(--clr-primary-heading);
 }
 .nav__menu > li:after {
 	content:'';
@@ -69,6 +70,9 @@
 		box-shadow: none;
 		background-color: transparent;
 	}
+	.nav__menu > li > a {
+		color: var(--clr-nav);
+	}
 	.nav .button-header {
 		display: inline-block;
 		margin: 0;
@@ -76,6 +80,7 @@
 }
 @media screen and (min-widtH: 992px) {
 	.nav__menu > li {
+		margin: 0;
 		margin-right: clamp(1rem, calc(1rem + ((1vw - 0.32rem) * 1.912)), 3rem);
 	}
 }

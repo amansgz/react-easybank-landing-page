@@ -3,7 +3,7 @@
 	background-color: var(--clr-background-grayish);
 }
 .content__title {
-	margin: var(--title-block-margin) 0;
+	margin: var(--title-block-margin);
 }
 .content__text {
 	max-width: 40ch;
@@ -21,7 +21,7 @@
 	margin-bottom: var(--spacing-2);
 }
 .feature__title {
-	margin: 2rem 0;
+	margin: 2.5rem 0;
 }
 .feature__text {
 	max-width: 37ch;
@@ -35,6 +35,9 @@
 	}
 	.section-features .content {
 		text-align: left;
+	}
+	.section-features .content__title {
+		margin-left: 0;
 	}
 	.section-features .content__text {
 		max-width: 60ch;

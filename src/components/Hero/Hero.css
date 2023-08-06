@@ -1,5 +1,5 @@
 .section-hero {
-	padding: var(--section-block-padding) var(--section-inline-padding);
+	padding: var(--section-hero-block-padding) var(--section-inline-padding);
 	background-image: url("../assets/bg-intro-mobile.svg");
 	background-repeat: no-repeat;
 	background-position: top;
@@ -10,8 +10,7 @@
 	transform: translateY(-130px);
 }
 .hero__title {
-	max-width: 14ch;
-	margin: var(--title-block-margin);
+	margin: var(--title-block-margin) 0;
 }
 .hero__text {
 	max-width: 40ch;
@@ -21,9 +20,10 @@
 @media screen and (min-width: 767px) {
 	.section-hero {
 		background-image: url("../assets/bg-intro-desktop.svg");
-		background-position: 444% -189px;
-		background-size: 90%;
-		overflow: hidden;
+		background-position: 195% -140px;
+		background-size: 75% 723px;
+		overflow-x: clip;
+		position: relative;
 	}
 	.section-hero .grid-md-2 {
 		place-items: start;
@@ -32,26 +32,27 @@
 		order: 2;
 	}
 	.hero__image {
-		width: 131%;
-		transform: translate(10%, -15%);
+		position: absolute;
+		top: 14px;
+		right: -90px;
+		width: 50%;
 	}
 	.grid__item--content {
-		order: 1;
-		align-self: center;
+		order: 1;	
 		text-align: left;
 	}
 	.hero__title {
 		max-width: 14ch;
+		margin-top: 0;
 		margin-left: 0;
 	}
 	.hero__text {
 		max-width: 43ch;
 	}
 }
-
 @media screen and (min-width: 1440px) {
-	.section-hero {
-		background-position: 409% -283px;
-		background-size: 90%;
+	.hero__image {
+		top: 54px;
+		max-width: 678px;
 	}
-}	
+}

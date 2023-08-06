@@ -7,6 +7,7 @@
 }
 .section-blog .flex-wrap-container {
 	justify-content: center;
+	gap: .5rem;
 }
 .card {
 	width: 29.8rem;
@@ -51,8 +52,9 @@
 	}
 	.section-blog .flex-wrap-container {
 		justify-content: space-between;
+		gap: .5rem;
 	}
 	.card {
-		width: 25rem;
+		width: 26.5rem;
 	}
 }

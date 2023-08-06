@@ -23,7 +23,7 @@ const Footer = () => (
 		
 			<div className= "grid__col-3">
 				<Button />
-				<small>
+				<small className= "footer__copyright">
 					© Easybank. All Rights Reserved
 				</small>	
 			</div>
