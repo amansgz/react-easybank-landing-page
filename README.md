@@ -1,11 +1,7 @@
-# 👩‍💻 Frontend Mentor - Easybank landing page solution
-
-Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-This is a solution for [Easybank landing page](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN) challenge.
-
+# 👩‍💻 Easybank landing page 
 
 ## The challenge
+The challenge is to build out this landing page and get it looking as close to the design as possible.
 
 Users should be able to:
 
@@ -19,12 +15,18 @@ Users should be able to:
 - CSS
 - Mobile-first workflow
 
-## Live site solution
+<div>
+  <h3>
+    <a href= "https://easybank-landing-page-with-react.netlify.app/">
+      Live site
+    </a>
+    <span> | </span>
+    <a href= "https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-[Live site](https://easybank-landing-page-with-react.netlify.app/) hosted on Netlify.
+![Design preview for the Order summary card coding challenge]()
 
-## Author
-
-- Frontend Mentor - [@amansgz](https://www.frontendmentor.io/profile/amansgz)
-
-Join to [Frontend Mentor Discord community](https://discord.gg/UAfh3qzhYb)
+This application/site was created as a submission to <a href= "https://www.frontendmentor.io/">Frontend Mentor Challenges</a> 
