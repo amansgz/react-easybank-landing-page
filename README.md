@@ -27,6 +27,6 @@ Users should be able to:
   </h3>
 </div>
 
-![Design preview for the Order summary card coding challenge]()
+![Design preview for the Order summary card coding challenge](./public/assets/preview.png)
 
 This application/site was created as a submission to <a href= "https://www.frontendmentor.io/">Frontend Mentor Challenges</a> 
